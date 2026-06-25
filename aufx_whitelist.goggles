@@ -14,9 +14,9 @@ $site=reuters.com
 $site=wsj.com
 $site=economist.com
 
-$discard,site=www.abc.net.au,path=/topic
-$discard,site=www.abc.net.au,path=/news/australia
-$discard,site=www.abc.net.au,path=/listen
+$discard,site=abc.net.au,path=/topic
+$discard,site=abc.net.au,path=/news/australia
+$discard,site=abc.net.au,path=/listen
 $discard,site=afr.com,path=/markets
 $discard,site=afr.com,path=/latest
 
