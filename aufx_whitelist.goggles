@@ -3,21 +3,6 @@
 ! public: false
 ! author: Dave
 
-! ─── 1. MAXIMUM PRIORITY SITES ───────────────────────────────
-$boost=5,site=rba.gov.au
-$boost=5,site=forexfactory.com
-$boost=5,site=theaustralian.com.au
-
-! ─── 2. STANDARD LOCAL AU FEEDS ──────────────────────────────
-$boost=3,site=theage.com.au
-$boost=3,site=smh.com.au
-$boost=3,site=watoday.com.au
-$boost=3,site=abc.net.au
-
-! ─── 3. VERIFIED PATH DISCARDS ───────────────────────────────
-/news/australia$discard,site=abc.net.au
-/listen$discard,site=abc.net.au
-/topic$discard,site=abc.net.au
 
 ! Completely ban specific local channels that ruin the signal
 $discard,site=abc.net.au
@@ -41,6 +26,26 @@ $discard,site=thesouthafrican.com
 $discard,site=crytobriefing.com
 $discard,site=policycircle.org
 $discard,site=ecb.europa.eu
+
+
+! ─── 3. VERIFIED PATH DISCARDS ───────────────────────────────
+/news/australia$discard,site=abc.net.au
+/listen$discard,site=abc.net.au
+/topic$discard,site=abc.net.au
+
+! ─── 1. MAXIMUM PRIORITY SITES ───────────────────────────────
+$boost=5,site=rba.gov.au
+$boost=5,site=theaustralian.com.au
+
+! ─── 2. STANDARD LOCAL AU FEEDS ──────────────────────────────
+$boost=3,site=theage.com.au
+$boost=3,site=smh.com.au
+$boost=3,site=watoday.com.au
+$boost=3,site=abc.net.au
+
+
+
+
 
 
 
