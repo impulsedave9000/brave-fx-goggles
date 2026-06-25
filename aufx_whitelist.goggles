@@ -13,7 +13,6 @@ $site=theaustralian.com.au
 $site=reuters.com
 $site=wsj.com
 $site=economist.com
-
 $discard,site=abc.net.au,path=/topic
 $discard,site=abc.net.au,path=/news/australia
 $discard,site=abc.net.au,path=/listen
