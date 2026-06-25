@@ -6,7 +6,6 @@
 ! ─── 1. ALLOWED SITES ─────────────────────────────────────────
 $site=rba.gov.au
 $site=afr.com
-$site=abc.net.au
 $site=bloomberg.com
 $site=ft.com
 $site=theaustralian.com.au
@@ -14,16 +13,12 @@ $site=reuters.com
 $site=wsj.com
 $site=economist.com
 
-! ─── 2. SITE-SPECIFIC PATH DISCARDS (REGEX) ──────────────────
-! This strictly drops the /topic and /listen directories on ABC only
-/^https?:\/\/(www\.)?abc\.net\.au\/topic/$discard
-/^https?:\/\/(www\.)?abc\.net\.au\/news\/australia/$discard
-/^https?:\/\/(www\.)?abc\.net\.au\/listen/$discard
+! ─── 2. SITE-SPECIFIC DISCARDS FOR AFR ────────────────────────
+! This is the official syntax to bind a path drop to a single domain
+/markets$discard,site=afr.com
+/latest$discard,site=afr.com
+/topic$discard,site=afr.com
 
-! This strictly drops the rolling dashboards on AFR only
-! Sites like Bloomberg or Reuters /markets paths will remain 100% safe!
-/^https?:\/\/(www\.)?afr\.com\/markets/$discard
-/^https?:\/\/(www\.)?afr\.com\/latest/$discard
 ! ─── 3. THE SAFETY NET ────────────────────────────────────────
 ! This MUST be the last line. It discards everything else on the web.
 $discard
