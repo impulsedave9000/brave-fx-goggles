@@ -27,9 +27,9 @@ $discard,site=ecb.europa.eu
 $discard,site=podcasts.apple.com
 $discard,site=investopedia.com
 $discard,site=tradingeconomics.com
-$discard,site=fxstreet.com
-$discard,site=investing.com
 $discard,site=forex.com
+$discard,site=blakes.com
+$discard,site=gomarkets.com
 
 ! ─── 3. VERIFIED PATH DISCARDS ───────────────────────────────
 /news/australia$discard,site=abc.net.au
@@ -39,6 +39,7 @@ $discard,site=forex.com
 /latest$discard,site=afr.com
 /topic$discard,site=afr.com
 /statistics$discard,site=abs.gov.au
+/statistics$discard,site=rba.gov.au
 
 ! ─── 1. PRIORITY 1 SITES ───────────────────────────────
 $boost=5,site=ibtimes.com.au
@@ -55,7 +56,8 @@ $boost=4,site=cnbc.com
 ! ─── 3. STANDARD LOCAL AU FEEDS ──────────────────────────────
 $boost=3,site=theage.com.au
 $boost=3,site=smh.com.au
-
+$boost=3,site=fxstreet.com
+$boost=3,site=investing.com
 
 
 
