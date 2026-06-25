@@ -3,30 +3,6 @@
 ! public: false
 ! author: Dave
 
-$discard,site=watoday.com.au
-$discard,site=skynews.com.au
-$discard,site=nab.com.au
-$discard,site=commbank.com.au
-$discard,site=wikipedia.org
-$discard,site=x.com
-$discard,site=pricefeedpro.com
-$discard,site=vtmarkets.com
-$discard,site=outlookindia.com
-$discard,site=bitcoinworld.co.in
-$discard,site=mitrade.com
-$discard,site=tmgm.com
-$discard,site=discoveryalert.com.au
-$discard,site=actionforex.com
-$discard,site=thesouthafrican.com
-$discard,site=cryptobriefing.com
-$discard,site=policycircle.org
-$discard,site=ecb.europa.eu
-$discard,site=podcasts.apple.com
-$discard,site=investopedia.com
-$discard,site=tradingeconomics.com
-$discard,site=forex.com
-$discard,site=blakes.com
-$discard,site=gomarkets.com
 /news/australia$discard,site=abc.net.au
 /listen$discard,site=abc.net.au
 /topic$discard,site=abc.net.au
