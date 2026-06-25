@@ -5,7 +5,6 @@
 
 $discard
 $site=rba.gov.au
-$site=abs.gov.au
 $site=afr.com
 $site=abc.net.au
 $site=bloomberg.com
@@ -14,9 +13,9 @@ $site=theage.com.au
 $site=smh.com.au
 $site=theaustralian.com.au
 $site=watoday.com.au
-$site=businessspectator.com.au
 $site=skynews.com.au
-$site=westpaciq.com.au
 $site=nab.com.au
 $site=commbank.com.au
-
+$reuters.com
+$wsj.com
+$economist.com
