@@ -1,7 +1,7 @@
 ! name: Australian Economic Whitelist
 ! description: Limits results strictly to specified Australian and global finance domains.
-! author: Dave
 ! public: false
+! author: Dave
 
 $discard
 $site=rba.gov.au,invert
