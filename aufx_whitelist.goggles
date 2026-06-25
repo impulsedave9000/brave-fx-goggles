@@ -46,7 +46,7 @@ $boost=5,site=ibtimes.com.au
 $boost=5,site=marketwatch.com
 $boost=5,site=nasdaq.com
 $boost=5,site=rba.gov.au
-
+$boost=5,site=dfat.gov.au
 ! ─── 2. PRIORITY 2 SITES ───────────────────────────────
 $boost=4,site=reuters.com
 $boost=4,site=abc.net.au
