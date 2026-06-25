@@ -16,6 +16,6 @@ $site=watoday.com.au
 $site=skynews.com.au
 $site=nab.com.au
 $site=commbank.com.au
-$reuters.com
-$wsj.com
-$economist.com
+$site=reuters.com
+$site=wsj.com
+$site=economist.com
