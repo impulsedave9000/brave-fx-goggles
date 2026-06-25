@@ -5,7 +5,7 @@
 
 
 ! Completely ban specific local channels that ruin the signal
-$discard,site=abc.net.au
+
 $discard,site=watoday.com.au
 $discard,site=skynews.com.au
 $discard,site=nab.com.au
@@ -13,8 +13,6 @@ $discard,site=commbank.com.au
 $discard,site=wikipedia.org
 $discard,site=x.com
 $discard,site=pricefeedpro.com
-$discard,site=fxstreet.com
-$discard,site=investing.com
 $discard,site=vtmarkets.com
 $discard,site=outlookindia.com
 $discard,site=bitcoinworld.co.in
@@ -23,10 +21,11 @@ $discard,site=tmgm.com
 $discard,site=discoveryalert.com.au
 $discard,site=actionforex.com
 $discard,site=thesouthafrican.com
-$discard,site=crytobriefing.com
+$discard,site=cryptobriefing.com
 $discard,site=policycircle.org
 $discard,site=ecb.europa.eu
-
+$discard,site=podcasts.apple.com
+$discard,site=investopedia.com
 
 ! ─── 3. VERIFIED PATH DISCARDS ───────────────────────────────
 /news/australia$discard,site=abc.net.au
