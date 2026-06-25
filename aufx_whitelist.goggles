@@ -3,19 +3,25 @@
 ! public: false
 ! author: Dave
 
+! ─── THE WHITELIST SWITCH ─────────────────────────────────────
+! This line tells Brave to instantly trash everything on the web...
 $discard
-$site=rba.gov.au
-$site=afr.com
-$site=abc.net.au
-$site=bloomberg.com
-$site=ft.com
-$site=theaustralian.com.au
-$site=reuters.com
-$site=wsj.com
-$site=economist.com
+
+! ...EXCEPT these specific domains, which bypass the trash rule.
+$allow,site=rba.gov.au
+$allow,site=afr.com
+$allow,site=abc.net.au
+$allow,site=bloomberg.com
+$allow,site=ft.com
+$allow,site=theaustralian.com.au
+$allow,site=reuters.com
+$allow,site=wsj.com
+$allow,site=economist.com
+
+! ─── Target Path Discards ─────────────────────────────────────
+! These run inside your allowed sites to strip the subfolder junk.
 $discard,site=abc.net.au,path=/topic
 $discard,site=abc.net.au,path=/news/australia
 $discard,site=abc.net.au,path=/listen
 $discard,site=afr.com,path=/markets
 $discard,site=afr.com,path=/latest
-
