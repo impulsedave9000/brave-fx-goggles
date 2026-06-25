@@ -14,13 +14,16 @@ $site=reuters.com
 $site=wsj.com
 $site=economist.com
 
-! ─── 2. SUBFOLDER PATH DISCARDS ──────────────────────────────
-$discard,site=abc.net.au,path=/topic
-$discard,site=abc.net.au,path=/news/australia
-$discard,site=abc.net.au,path=/listen
-$discard,site=afr.com,path=/markets
-$discard,site=afr.com,path=/latest
+! ─── 2. SITE-SPECIFIC PATH DISCARDS (REGEX) ──────────────────
+! This strictly drops the /topic and /listen directories on ABC only
+/^https?:\/\/(www\.)?abc\.net\.au\/topic/$discard
+/^https?:\/\/(www\.)?abc\.net\.au\/news\/australia/$discard
+/^https?:\/\/(www\.)?abc\.net\.au\/listen/$discard
 
+! This strictly drops the rolling dashboards on AFR only
+! Sites like Bloomberg or Reuters /markets paths will remain 100% safe!
+/^https?:\/\/(www\.)?afr\.com\/markets/$discard
+/^https?:\/\/(www\.)?afr\.com\/latest/$discard
 ! ─── 3. THE SAFETY NET ────────────────────────────────────────
 ! This MUST be the last line. It discards everything else on the web.
 $discard
