@@ -3,7 +3,7 @@
 ! public: false
 ! author: Dave
 
-! ─── 1. ALLOWED SITES ─────────────────────────────────────────
+$discard
 $site=rba.gov.au
 $site=afr.com
 $site=bloomberg.com
@@ -19,6 +19,4 @@ $site=economist.com
 /latest$discard,site=afr.com
 /topic$discard,site=afr.com
 
-! ─── 3. THE SAFETY NET ────────────────────────────────────────
-! This MUST be the last line. It discards everything else on the web.
-$discard
+
