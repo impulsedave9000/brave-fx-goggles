@@ -29,6 +29,7 @@ $discard,site=investopedia.com
 $discard,site=tradingeconomics.com
 $discard,site=fxstreet.com
 $discard,site=investing.com
+$discard,site=forex.com
 
 ! ─── 3. VERIFIED PATH DISCARDS ───────────────────────────────
 /news/australia$discard,site=abc.net.au
