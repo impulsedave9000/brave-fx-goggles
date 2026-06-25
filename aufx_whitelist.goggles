@@ -1,0 +1,22 @@
+! name: Australian Economic Whitelist
+! description: Limits results strictly to specified Australian and global finance domains.
+! public: false
+! author: Dave
+
+$discard
+$site=rba.gov.au
+$site=abs.gov.au
+$site=afr.com
+$site=abc.net.au
+$site=bloomberg.com
+$site=ft.com
+$site=theage.com.au
+$site=smh.com.au
+$site=theaustralian.com.au
+$site=watoday.com.au
+$site=businessspectator.com.au
+$site=skynews.com.au
+$site=westpaciq.com.au
+$site=nab.com.au
+$site=commbank.com.au
+
