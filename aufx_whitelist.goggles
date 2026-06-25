@@ -26,21 +26,34 @@ $discard,site=policycircle.org
 $discard,site=ecb.europa.eu
 $discard,site=podcasts.apple.com
 $discard,site=investopedia.com
+$discard,site=tradingeconomics.com
+$discard,site=fxstreet.com
+$discard,site=investing.com
 
 ! ─── 3. VERIFIED PATH DISCARDS ───────────────────────────────
 /news/australia$discard,site=abc.net.au
 /listen$discard,site=abc.net.au
 /topic$discard,site=abc.net.au
+/markets$discard,site=afr.com
+/latest$discard,site=afr.com
 
-! ─── 1. MAXIMUM PRIORITY SITES ───────────────────────────────
+! ─── 1. PRIORITY 1 SITES ───────────────────────────────
+$boost=5,site=ibtimes.com.au
+$boost=5,site=marketwatch.com
+$boost=5,site=nasdaq.com
 $boost=5,site=rba.gov.au
-$boost=5,site=theaustralian.com.au
 
-! ─── 2. STANDARD LOCAL AU FEEDS ──────────────────────────────
+! ─── 2. PRIORITY 2 SITES ───────────────────────────────
+$boost=4,site=reuters.com
+$boost=4,site=abc.net.au
+$boost=4,site=afr.com
+$boost=4,site=cnbc.com
+
+! ─── 3. STANDARD LOCAL AU FEEDS ──────────────────────────────
 $boost=3,site=theage.com.au
 $boost=3,site=smh.com.au
-$boost=3,site=watoday.com.au
-$boost=3,site=abc.net.au
+
+
 
 
 
