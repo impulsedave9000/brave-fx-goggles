@@ -13,3 +13,10 @@ $site=theaustralian.com.au
 $site=reuters.com
 $site=wsj.com
 $site=economist.com
+
+$discard,www.abc.net.au=/topic/
+$discard,www.abc.net.au=/news/australia
+$discard,www.abc.net.au/listen/
+$discard,site=afr.com,path=/markets
+$discard,site=afr.com,path=/latest
+
