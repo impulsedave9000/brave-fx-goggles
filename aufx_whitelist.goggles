@@ -3,12 +3,6 @@
 ! public: false
 ! author: Dave
 
-/news/australia$discard,site=abc.net.au
-/listen$discard,site=abc.net.au
-/topic$discard,site=abc.net.au
-/markets$discard,site=afr.com
-/latest$discard,site=afr.com
-/topic$discard,site=afr.com
 /statistics$discard,site=abs.gov.au
 /statistics$discard,site=rba.gov.au
 $boost=5,site=ibtimes.com.au
