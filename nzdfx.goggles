@@ -3,6 +3,9 @@
 ! public: false
 ! author: Dave
 
+! ==========================================
+! SECTION 1: GLOBAL DOMAIN DISCARDS
+! ==========================================
 $discard,site=fxstreet.com
 $discard,site=actionforex.com
 $discard,site=investing.com
@@ -23,13 +26,10 @@ $discard,site=vtmarkets.com
 $discard,site=convera.com
 $discard,site=macrobusiness.com.au
 $discard,site=kalkinemedia.com
+$discard,site=abc.net.au
 
 ! ==========================================
-! SECTION 2: WEBSITE PATH EXCLUSION
-! ==========================================
-/news$discard,site=abc.net.au
-! ==========================================
-! SECTION 3: WEBSITE PRIORITY (NZD CLEANED)
+! SECTION 2: WEBSITE PRIORITY (NZD UPDATED)
 ! ==========================================
 $boost=5,site=marketwatch.com
 $boost=5,site=nasdaq.com
@@ -38,7 +38,9 @@ $boost=5,site=rbnz.gov.nz
 $boost=4,site=reuters.com
 $boost=4,site=cnbc.com
 $boost=4,site=apnews.com
+$boost=4,site=theguardian.com
 $boost=4,site=nzherald.co.nz
 $boost=4,site=rnz.co.nz
+$boost=4,site=interest.co.nz
 
 $boost=3,site=businesstoday.in
