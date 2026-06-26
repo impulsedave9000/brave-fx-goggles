@@ -14,10 +14,14 @@ $discard,site=investinglive.com
 $discard,site=gurufocus.com
 $discard,site=finimize.com
 $discard,site=itbrief.com.au
-$discard,site=proactiveinvestors.co.uk
+$discard,site=proactiveinvestors.com
 $discard,site=discoveryalert.com.au
 $discard,site=canstar.com.au
 $discard,site=indexbox.io
+$discard,site=fxdailyreport.com
+$discard,site=vtmarkets.com
+$discard,site=convera.com
+$discard,site=macrobusiness.com.au
 /news$discard,site=abc.net.au
 /statistics$discard,site=abs.gov.au
 /statistics$discard,site=rba.gov.au
@@ -25,13 +29,15 @@ $boost=5,site=marketwatch.com
 $boost=5,site=nasdaq.com
 $boost=5,site=rba.gov.au
 $boost=5,site=dfat.gov.au
+$boost=4,site=ibtimes.com.au
 $boost=4,site=reuters.com
 $boost=4,site=afr.com
 $boost=4,site=cnbc.com
+$boost=4,site=michaelwest.com.au
 $boost=3,site=abc.net.au
 $boost=3,site=theage.com.au
 $boost=3,site=smh.com.au
-$boost=3,site=ibtimes.com.au
+$boost=3,site=businesstoday.in
 
 
 
