@@ -3,6 +3,20 @@
 ! public: false
 ! author: Dave
 
+! ==============================================================================
+! CODE AUDIT: audfx.goggles
+! PURPOSE: Structural Macro Filtering for AUD H1 Swing Discrepancy Trading
+! TARGET ENGINE: Brave Search API / Goggles DSL v1
+! ==============================================================================
+
+! ==========================================
+! SECTION 1: HARD DISCARDS & PAYWALL BLOCKS
+! ==========================================
+! --- Paywall Outlets ---
+$discard,site=bloomberg.com
+$discard,site=ft.com
+
+! --- Retail Sentiment / Broker Feed Noise ---
 $discard,site=fxstreet.com
 $discard,site=actionforex.com
 $discard,site=investing.com
@@ -11,31 +25,48 @@ $discard,site=mitrade.com
 $discard,site=cryptobriefing.com
 $discard,site=econotimes.com
 $discard,site=investinglive.com
-$discard,site=gurufocus.com
-$discard,site=finimize.com
-$discard,site=itbrief.com.au
-$discard,site=proactiveinvestors.com
-$discard,site=discoveryalert.com.au
-$discard,site=canstar.com.au
-$discard,site=indexbox.io
 $discard,site=fxdailyreport.com
 $discard,site=vtmarkets.com
 $discard,site=convera.com
-$discard,site=macrobusiness.com.au
+$discard,site=tradingpedia.com
+$discard,site=bitcoinworld.co.in
+
+! --- Retail Aggregators & Valuation Scrapers ---
+$discard,site=gurufocus.com
+$discard,site=finimize.com
+$discard,site=proactiveinvestors.com
+$discard,site=canstar.com.au
+$discard,site=indexbox.io
 $discard,site=kalkinemedia.com
-/news$discard,site=abc.net.au
-/statistics$discard,site=abs.gov.au
-/statistics$discard,site=rba.gov.au
-$boost=5,site=marketwatch.com
-$boost=5,site=nasdaq.com
+$discard,site=macrobusiness.com.au
+$discard,site=discoveryalert.com.au
+
+! ==========================================
+! SECTION 2: PATH-SPECIFIC NOISE SUPPRESSION
+! ==========================================
+! --- Drop Scheduled Calendar Data / Scraping Feeds ---
+/news/$discard,site=abc.net.au
+/statistics/$discard,site=abs.gov.au
+/statistics/$discard,site=rba.gov.au
+
+! ==========================================
+! SECTION 3: AUTHORITY & STRUCTURAL BOOSTING
+! ==========================================
+! --- Sovereign Policy & Macro-Trade Nodes (Max Weight) ---
 $boost=5,site=rba.gov.au
 $boost=5,site=dfat.gov.au
+$boost=5,site=marketwatch.com
+$boost=5,site=nasdaq.com
+
+! --- Secondary Macro Analytics & Broad Outlets ---
 $boost=4,site=ibtimes.com.au
-$boost=4,site=reuters.com
 $boost=4,site=afr.com
 $boost=4,site=cnbc.com
 $boost=4,site=apnews.com
+$boost=4,site=theguardian.com
 $boost=4,site=michaelwest.com.au
+
+! --- Core Local Financial Ecosystem ---
 $boost=3,site=abc.net.au
 $boost=3,site=theage.com.au
 $boost=3,site=smh.com.au
