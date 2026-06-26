@@ -35,6 +35,7 @@ $discard,site=forbes.com
 $boost=5,site=marketwatch.com
 $boost=5,site=nasdaq.com
 $boost=5,site=rbnz.gov.nz
+$boost=5,site=mfat.govt.nz
 
 $boost=4,site=reuters.com
 $boost=4,site=cnbc.com
