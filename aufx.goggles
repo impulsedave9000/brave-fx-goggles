@@ -1,5 +1,5 @@
-! name: Australian Economic Whitelist
-! description: Limits results strictly to specified Australian and global finance domains.
+! name: Australian Economic News
+! description: Exclusion and Priority sites to specified Australian and global finance domains.
 ! public: false
 ! author: Dave
 
