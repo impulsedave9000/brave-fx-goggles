@@ -1,0 +1,42 @@
+! name: England Economic News
+! description: Exclusion and Priority sites to specified England and global finance domains.
+! public: false
+! author: Dave
+
+$discard,site=fxstreet.com
+$discard,site=actionforex.com
+$discard,site=investing.com
+$discard,site=ig.com
+$discard,site=mitrade.com
+$discard,site=cryptobriefing.com
+$discard,site=econotimes.com
+$discard,site=investinglive.com
+$discard,site=gurufocus.com
+$discard,site=finimize.com
+$discard,site=itbrief.com.au
+$discard,site=proactiveinvestors.com
+$discard,site=discoveryalert.com.au
+$discard,site=canstar.com.au
+$discard,site=indexbox.io
+$discard,site=fxdailyreport.com
+$discard,site=vtmarkets.com
+$discard,site=convera.com
+$discard,site=macrobusiness.com.au
+$discard,site=kalkinemedia.com
+/news$discard,site=abc.net.au
+/statistics$discard,site=abs.gov.au
+/statistics$discard,site=rba.gov.au
+$boost=5,site=marketwatch.com
+$boost=5,site=nasdaq.com
+$boost=5,site=rba.gov.au
+$boost=5,site=dfat.gov.au
+$boost=4,site=ibtimes.com.au
+$boost=4,site=reuters.com
+$boost=4,site=afr.com
+$boost=4,site=cnbc.com
+$boost=4,site=apnews.com
+$boost=4,site=michaelwest.com.au
+$boost=3,site=abc.net.au
+$boost=3,site=theage.com.au
+$boost=3,site=smh.com.au
+$boost=3,site=businesstoday.in
