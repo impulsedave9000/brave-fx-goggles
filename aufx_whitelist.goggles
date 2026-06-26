@@ -3,20 +3,28 @@
 ! public: false
 ! author: Dave
 
+$discard,site=fxstreet.coma
+$discard,site=actionforex.com
+$discard,site=investing.com
+$discard,site=ig.com
+$discard,site=mitrade.com
+$discard,site=cryptobriefing.com
+$discard,site=econotimes.com
+$discard,site=investinglive.com
+/news$discard,site=abc.net.au
 /statistics$discard,site=abs.gov.au
 /statistics$discard,site=rba.gov.au
-$boost=5,site=ibtimes.com.au
 $boost=5,site=marketwatch.com
 $boost=5,site=nasdaq.com
 $boost=5,site=rba.gov.au
 $boost=5,site=dfat.gov.au
 $boost=4,site=reuters.com
-$boost=4,site=abc.net.au
 $boost=4,site=afr.com
 $boost=4,site=cnbc.com
+$boost=3,site=abc.net.au
 $boost=3,site=theage.com.au
 $boost=3,site=smh.com.au
-
+$boost=3,site=ibtimes.com.au
 
 
 
