@@ -25,19 +25,11 @@ $discard,site=macrobusiness.com.au
 $discard,site=kalkinemedia.com
 
 ! ==========================================
-! SECTION 2: LOCALIZED NOISE CANCELING
-! ==========================================
-$discard,term=production
-$discard,term=export
-$discard,term=yield
-$discard,term=election
-$discard,term=kiwisaver
-! ==========================================
-! SECTION 3: WEBSITE PATH EXCLUSION
+! SECTION 2: WEBSITE PATH EXCLUSION
 ! ==========================================
 /news$discard,site=abc.net.au
 ! ==========================================
-! SECTION 4: WEBSITE PRIORITY (NZD CLEANED)
+! SECTION 3: WEBSITE PRIORITY (NZD CLEANED)
 ! ==========================================
 $boost=5,site=marketwatch.com
 $boost=5,site=nasdaq.com
