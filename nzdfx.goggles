@@ -23,19 +23,30 @@ $discard,site=vtmarkets.com
 $discard,site=convera.com
 $discard,site=macrobusiness.com.au
 $discard,site=kalkinemedia.com
+
+! ==========================================
+! SECTION 2: LOCALIZED NOISE CANCELING
+! ==========================================
+$discard,term=production
+$discard,term=export
+$discard,term=yield
+$discard,term=election
+$discard,term=kiwisaver
+! ==========================================
+! SECTION 3: WEBSITE PATH EXCLUSION
+! ==========================================
 /news$discard,site=abc.net.au
-/statistics$discard,site=abs.gov.au
-/statistics$discard,site=rba.gov.au
+! ==========================================
+! SECTION 4: WEBSITE PRIORITY (NZD CLEANED)
+! ==========================================
 $boost=5,site=marketwatch.com
 $boost=5,site=nasdaq.com
 $boost=5,site=rbnz.gov.nz
-$boost=5,site=thestandard.nz
-$boost=,site-b2bnews.co.nz
+
 $boost=4,site=reuters.com
-$boost=4,site=nzherald.co.nz
-$boost=4,site=rnz.co.nz
 $boost=4,site=cnbc.com
 $boost=4,site=apnews.com
-$boost=4,site=michaelwest.com.au
-$boost=3,site=abc.net.au
+$boost=4,site=nzherald.co.nz
+$boost=4,site=rnz.co.nz
+
 $boost=3,site=businesstoday.in
