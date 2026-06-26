@@ -28,7 +28,7 @@ $discard,site=macrobusiness.com.au
 $discard,site=kalkinemedia.com
 $discard,site=abc.net.au
 $discard,site=farmersweekly.co.nz
-
+$discard,site=forbes.com
 ! ==========================================
 ! SECTION 2: WEBSITE PRIORITY (NZD UPDATED)
 ! ==========================================
