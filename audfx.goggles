@@ -30,6 +30,7 @@ $discard,site=vtmarkets.com
 $discard,site=convera.com
 $discard,site=tradingpedia.com
 $discard,site=bitcoinworld.co.in
+$discard,site=brecorder.com
 
 ! --- Retail Aggregators & Valuation Scrapers ---
 $discard,site=gurufocus.com
@@ -64,12 +65,13 @@ $boost=4,site=afr.com
 $boost=4,site=cnbc.com
 $boost=4,site=apnews.com
 $boost=4,site=theguardian.com
-$boost=4,site=michaelwest.com.au
+$boost=4,site=smh.com.au
+$boost=4,site=smenet.org
 
 ! --- Core Local Financial Ecosystem ---
 $boost=3,site=abc.net.au
 $boost=3,site=theage.com.au
-$boost=3,site=smh.com.au
+$boost=3,site=michaelwest.com.au
 $boost=3,site=businesstoday.in
 
 
