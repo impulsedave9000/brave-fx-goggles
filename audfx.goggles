@@ -41,6 +41,7 @@ $discard,site=indexbox.io
 $discard,site=kalkinemedia.com
 $discard,site=macrobusiness.com.au
 $discard,site=discoveryalert.com.au
+$discard,site=financialstandard.com.au
 
 ! ==========================================
 ! SECTION 2: PATH-SPECIFIC NOISE SUPPRESSION
