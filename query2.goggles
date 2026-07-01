@@ -1,4 +1,9 @@
-# Filter for financial data sources only
+! name: Scheduled Calendar News
+! description: Exclusion and Priority sites to specified Australian and global finance domains.
+! public: false
+! author: Dave
+
+! Filter for financial data sources only
 $discard
 $site=mitrade.com
 $site=fxstreet.com
