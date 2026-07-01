@@ -5,10 +5,11 @@
 
 ! Filter for financial data sources only
 $discard
+$boost=5,$site=tradingeconomics.com
+$boost=5,$site=mql5.com
+$boost=4,$site=forexfactory.com
 $site=mitrade.com
 $site=fxstreet.com
-$site=forexfactory.com
 $site=investing.com
-$site=tradingeconomics.com
-$site=mql5.com
+
 
