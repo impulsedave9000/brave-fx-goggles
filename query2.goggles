@@ -4,7 +4,7 @@
 ! author: Dave
 
 ! Irriating sites
-
+$discard
 $discard,site=fred.stlouisfed.org
 
 ! Boost for  creditable financial data sources only
