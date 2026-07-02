@@ -3,6 +3,10 @@
 ! public: false
 ! author: Dave
 
+! Irriating sites
+
+$discard,site=fred.stlouisfed.org
+
 ! Boost for  creditable financial data sources only
 
 $boost=5,$site=abs.gov.au
