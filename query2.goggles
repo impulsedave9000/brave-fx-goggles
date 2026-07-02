@@ -3,9 +3,6 @@
 ! public: false
 ! author: Dave
 
-! Irriating sites
-$discard
-$discard,site=fred.stlouisfed.org
 
 ! Boost for  creditable financial data sources only
 
@@ -18,3 +15,6 @@ $site=mitrade.com
 $site=investing.com
 
 
+! Irriating sites
+$discard
+$discard,site=fred.stlouisfed.org
